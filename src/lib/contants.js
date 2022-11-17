@@ -1,0 +1,9 @@
+const LOCATION_TYPE = Object.freeze({
+  PRODUCTS: 'PRODUCTS',
+  CART: 'CART',
+  PRODUCTLIST: 'PRODUCTLIST',
+});
+
+export {
+  LOCATION_TYPE
+};
