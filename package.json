@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/dev-riley/ShoppingMall_SPA/issues"
   },
+  "proxy":"http://localhost:1234",
   "homepage": "https://github.com/dev-riley/ShoppingMall_SPA#readme",
   "devDependencies": {
     "@babel/cli": "^7.19.3",

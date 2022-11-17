@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:1234";
+const BASE_URL = "http://localhost:3000";
 
 const fetcher = async (url) => {
   try {
@@ -9,7 +9,7 @@ const fetcher = async (url) => {
     }
     throw new Error('API 통신 실패')
   } catch (e) {
-    alert(e.message)
+    console.log(e.message)
   }
 }
 
